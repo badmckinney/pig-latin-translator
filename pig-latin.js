@@ -25,15 +25,12 @@ module.exports = () => {
           }
         }
       }
-      return words;
     });
-    console.log(translated.join(" "));
     return translated.join(" ");
   };
 
   //Translate Pig Latin to English
   const translatePig = (str) => {
-    debugger;
     let words = str.trim().split(" ");
     let translated = [];
     words.forEach(word => {
@@ -50,7 +47,6 @@ module.exports = () => {
         return;
       }
     });
-    console.log(translated.join(" "));
     return translated.join(" ");
   };
 
