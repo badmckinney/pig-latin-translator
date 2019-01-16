@@ -2,7 +2,6 @@ const translator = require('./../pig-latin.js');
 const chai = require('chai');
 const should = chai.should();
 
-console.log(translator().translateEng);
 describe('Pig Latin Translator', function () {
   it("should return a string in pig Latin when given the string 'Every good boy does fine'", function () {
     const str = "Every good boy does fine";
